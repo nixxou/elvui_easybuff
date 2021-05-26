@@ -24,21 +24,21 @@ local EasyBuff_AuraGroups = {
 	-- Druid
 	MOTW = {
 		class 	 = "Druid",
-		name     = "Mark of the Wild",
+		name     = "Marque du fauve",
 		selfOnly = false,
 		stacks   = false,
-		multi 	 = "Gift of the Wild"
+		multi 	 = "Don du fauve"
 	},
 	Thorns = {
 		class 	 = "Druid",
-		name     = "Thorns",
+		name     = "Epines",
 		selfOnly = false,
 		stacks   = false,
 		multi 	 = nil
 	},
 	OOC = {
 		class 	 = "Druid",
-		name     = "Omen of Clarity",
+		name     = "Augure de clarté",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
@@ -46,14 +46,14 @@ local EasyBuff_AuraGroups = {
 	-- Hunter
 	TSA = {
 		class 	 = "Hunter",
-		name     = "Trueshot Aura",
+		name     = "Aura de précision",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
 	},
 	AOTH = {
 		class 	 = "Hunter",
-		name     = "Aspect of the Hawk",
+		name     = "Aspect du faucon",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
@@ -61,28 +61,28 @@ local EasyBuff_AuraGroups = {
 	AOTM = {
 		class 	 = "Hunter",
 		multi 	 = nil,
-		name     = "Aspect of the Monkey",
+		name     = "Aspect du singe",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
 	},
 	AOTW = {
 		class 	 = "Hunter",
-		name     = "Aspect of the Wild",
+		name     = "Aspect de la nature",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
 	},
 	AOTC = {
 		class 	 = "Hunter",
-		name     = "Aspect of the Cheetah",
+		name     = "Aspect du guépard",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
 	},
 	AOTP = {
 		class 	 = "Hunter",
-		name     = "Aspect of the Pack",
+		name     = "Aspect de la meute",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
@@ -90,70 +90,70 @@ local EasyBuff_AuraGroups = {
 	-- Mage
 	AI = {
 		class 	 = "Mage",
-		name     = "Arcane Intellect",
+		name     = "Intelligence des arcanes",
 		selfOnly = false,
 		stacks   = false,
-		multi 	 = "Arcane Brilliance"
+		multi 	 = "Illumination des arcanes"
 	},
 	IceArmor = {
 		class 	 = "Mage",
-		name     = "Ice Armor",
+		name     = "Armure de glace",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
 	},
 	FrostArmor = {
 		class 	 = "Mage",
-		name     = "Frost Armor",
+		name     = "Armure de givre",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
 	},
 	MageArmor = {
 		class 	 = "Mage",
-		name     = "Mage Armor",
+		name     = "Armure du mage",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
 	},
 	IceBarrier = {
 		class 	 = "Mage",
-		name     = "Ice Barrier",
+		name     = "Barrière de glace",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
 	},
 	FrostWard = {
 		class 	 = "Mage",
-		name     = "Frost Ward",
+		name     = "Gardien de givre",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
 	},
 	FireWard = {
 		class 	 = "Mage",
-		name     = "Fire Ward",
+		name     = "Gardien de feu",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
 	},
 	ManaShield = {
 		class 	 = "Mage",
-		name     = "Mana Shield",
+		name     = "Bouclier de mana",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
 	},
 	DampenMagic = {
 		class 	 = "Mage",
-		name     = "Dampen Magic",
+		name     = "Atténuation de la magie",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
 	},
 	AmplifyMagic = {
 		class 	 = "Mage",
-		name     = "Amplify Magic",
+		name     = "Amplification de la magie",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
@@ -161,91 +161,91 @@ local EasyBuff_AuraGroups = {
 	-- Paladin
 	BOM = {
 		class 	 = "Paladin",
-		name     = "Blessing of Might",
+		name     = "Bénédiction de puissance",
 		selfOnly = false,
 		stacks   = false,
-		multi 	 = "Greater Blessing of Might"
+		multi 	 = "Bénédiction de puissance supérieure"
 	},
 	BOW = {
 		class 	 = "Paladin",
-		name     = "Blessing of Wisdom",
+		name     = "Bénédiction de sagesse",
 		selfOnly = false,
 		stacks   = false,
-		multi 	 = "Greater Blessing of Wisdom",
+		multi 	 = "Bénédiction de sagesse supérieure",
 	},
 	BOSLV = {
 		class 	 = "Paladin",
-		name     = "Blessing of Salvation",
+		name     = "Bénédiction de salut",
 		selfOnly = false,
 		stacks   = false,
-		multi 	 = "Greater Blessing of Salvation"
+		multi 	 = "Bénédiction de salut supérieure"
 	},
 	BOK = {
 		class 	 = "Paladin",
-		name     = "Blessing of Kings",
+		name     = "Bénédiction des rois",
 		selfOnly = false,
 		stacks   = false,
-		multi 	 = "Greater Blessing of Kings"
+		multi 	 = "Bénédiction des rois supérieure"
 	},
 	BOSNC = {
 		class 	 = "Paladin",
-		name     = "Blessing of Sanctuary",
+		name     = "Bénédiction du sanctuaire",
 		selfOnly = false,
 		stacks   = false,
-		multi 	 = "Greater Blessing of Sanctuary"
+		multi 	 = "Bénédiction du sanctuaire supérieure"
 	},
 	BOL = {
 		class 	 = "Paladin",
-		name     = "Blessing of Light",
+		name     = "Bénédiction de lumière",
 		selfOnly = false,
 		stacks   = false,
-		multi 	 = "Greater Blessing of Light"
+		multi 	 = "Bénédiction de lumière supérieure"
 	},
 	RFury = {
 		class 	 = "Paladin",
-		name     = "Righteous Fury",
+		name     = "Fureur vertueuse",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
 	},
 	DevoAura = {
 		class 	 = "Paladin",
-		name     = "Devotion Aura",
+		name     = "Aura de dévotion",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
 	},
 	ConsAura = {
 		class 	 = "Paladin",
-		name     = "Concentration Aura",
+		name     = "Aura de concentration",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
 	},
 	RetAura = {
 		class 	 = "Paladin",
-		name     = "Retribution Aura",
+		name     = "Aura de vindicte",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
 	},
 	FireAura = {
 		class 	 = "Paladin",
-		name     = "Fire Resistance Aura",
+		name     = "Aura de résistance au Feu",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
 	},
 	FrostAura = {
 		class 	 = "Paladin",
-		name     = "Frost Resistance Aura",
+		name     = "Aura de résistance au Givre",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
 	},
 	ShadowAura = {
 		class 	 = "Paladin",
-		name     = "Shadow Resistance Aura",
+		name     = "Aura de résistance à l'Ombre",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
