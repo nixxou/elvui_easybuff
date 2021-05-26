@@ -23,21 +23,21 @@ local Tracking_By_Texture = {};
 local EasyBuff_AuraGroups = {
 	-- Druid
 	MOTW = {
-		class 	 = "Druid",
+		class 	 = "DRUID",
 		name     = "Marque du fauve",
 		selfOnly = false,
 		stacks   = false,
 		multi 	 = "Don du fauve"
 	},
 	Thorns = {
-		class 	 = "Druid",
+		class 	 = "DRUID",
 		name     = "Epines",
 		selfOnly = false,
 		stacks   = false,
 		multi 	 = nil
 	},
 	OOC = {
-		class 	 = "Druid",
+		class 	 = "DRUID",
 		name     = "Augure de clarté",
 		selfOnly = true,
 		stacks   = false,
@@ -45,21 +45,21 @@ local EasyBuff_AuraGroups = {
 	},
 	-- Hunter
 	TSA = {
-		class 	 = "Hunter",
+		class 	 = "HUNTER",
 		name     = "Aura de précision",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
 	},
 	AOTH = {
-		class 	 = "Hunter",
+		class 	 = "HUNTER",
 		name     = "Aspect du faucon",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
 	},
 	AOTM = {
-		class 	 = "Hunter",
+		class 	 = "HUNTER",
 		multi 	 = nil,
 		name     = "Aspect du singe",
 		selfOnly = true,
@@ -67,21 +67,21 @@ local EasyBuff_AuraGroups = {
 		multi 	 = nil
 	},
 	AOTW = {
-		class 	 = "Hunter",
+		class 	 = "HUNTER",
 		name     = "Aspect de la nature",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
 	},
 	AOTC = {
-		class 	 = "Hunter",
+		class 	 = "HUNTER",
 		name     = "Aspect du guépard",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
 	},
 	AOTP = {
-		class 	 = "Hunter",
+		class 	 = "HUNTER",
 		name     = "Aspect de la meute",
 		selfOnly = true,
 		stacks   = false,
@@ -89,70 +89,70 @@ local EasyBuff_AuraGroups = {
 	},
 	-- Mage
 	AI = {
-		class 	 = "Mage",
+		class 	 = "MAGE",
 		name     = "Intelligence des arcanes",
 		selfOnly = false,
 		stacks   = false,
 		multi 	 = "Illumination des arcanes"
 	},
 	IceArmor = {
-		class 	 = "Mage",
+		class 	 = "MAGE",
 		name     = "Armure de glace",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
 	},
 	FrostArmor = {
-		class 	 = "Mage",
+		class 	 = "MAGE",
 		name     = "Armure de givre",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
 	},
 	MageArmor = {
-		class 	 = "Mage",
+		class 	 = "MAGE",
 		name     = "Armure du mage",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
 	},
 	IceBarrier = {
-		class 	 = "Mage",
+		class 	 = "MAGE",
 		name     = "Barrière de glace",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
 	},
 	FrostWard = {
-		class 	 = "Mage",
+		class 	 = "MAGE",
 		name     = "Gardien de givre",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
 	},
 	FireWard = {
-		class 	 = "Mage",
+		class 	 = "MAGE",
 		name     = "Gardien de feu",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
 	},
 	ManaShield = {
-		class 	 = "Mage",
+		class 	 = "MAGE",
 		name     = "Bouclier de mana",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
 	},
 	DampenMagic = {
-		class 	 = "Mage",
+		class 	 = "MAGE",
 		name     = "Atténuation de la magie",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
 	},
 	AmplifyMagic = {
-		class 	 = "Mage",
+		class 	 = "MAGE",
 		name     = "Amplification de la magie",
 		selfOnly = true,
 		stacks   = false,
@@ -160,91 +160,91 @@ local EasyBuff_AuraGroups = {
 	},
 	-- Paladin
 	BOM = {
-		class 	 = "Paladin",
+		class 	 = "PALADIN",
 		name     = "Bénédiction de puissance",
 		selfOnly = false,
 		stacks   = false,
 		multi 	 = "Bénédiction de puissance supérieure"
 	},
 	BOW = {
-		class 	 = "Paladin",
+		class 	 = "PALADIN",
 		name     = "Bénédiction de sagesse",
 		selfOnly = false,
 		stacks   = false,
 		multi 	 = "Bénédiction de sagesse supérieure",
 	},
 	BOSLV = {
-		class 	 = "Paladin",
+		class 	 = "PALADIN",
 		name     = "Bénédiction de salut",
 		selfOnly = false,
 		stacks   = false,
 		multi 	 = "Bénédiction de salut supérieure"
 	},
 	BOK = {
-		class 	 = "Paladin",
+		class 	 = "PALADIN",
 		name     = "Bénédiction des rois",
 		selfOnly = false,
 		stacks   = false,
 		multi 	 = "Bénédiction des rois supérieure"
 	},
 	BOSNC = {
-		class 	 = "Paladin",
+		class 	 = "PALADIN",
 		name     = "Bénédiction du sanctuaire",
 		selfOnly = false,
 		stacks   = false,
 		multi 	 = "Bénédiction du sanctuaire supérieure"
 	},
 	BOL = {
-		class 	 = "Paladin",
+		class 	 = "PALADIN",
 		name     = "Bénédiction de lumière",
 		selfOnly = false,
 		stacks   = false,
 		multi 	 = "Bénédiction de lumière supérieure"
 	},
 	RFury = {
-		class 	 = "Paladin",
+		class 	 = "PALADIN",
 		name     = "Fureur vertueuse",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
 	},
 	DevoAura = {
-		class 	 = "Paladin",
+		class 	 = "PALADIN",
 		name     = "Aura de dévotion",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
 	},
 	ConsAura = {
-		class 	 = "Paladin",
+		class 	 = "PALADIN",
 		name     = "Aura de concentration",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
 	},
 	RetAura = {
-		class 	 = "Paladin",
+		class 	 = "PALADIN",
 		name     = "Aura de vindicte",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
 	},
 	FireAura = {
-		class 	 = "Paladin",
+		class 	 = "PALADIN",
 		name     = "Aura de résistance au Feu",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
 	},
 	FrostAura = {
-		class 	 = "Paladin",
+		class 	 = "PALADIN",
 		name     = "Aura de résistance au Givre",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
 	},
 	ShadowAura = {
-		class 	 = "Paladin",
+		class 	 = "PALADIN",
 		name     = "Aura de résistance à l'Ombre",
 		selfOnly = true,
 		stacks   = false,
@@ -252,35 +252,35 @@ local EasyBuff_AuraGroups = {
 	},
 	-- Priest
 	FORT = {
-		class 	 = "Priest",
+		class 	 = "PRIEST",
 		name     = "Power Word: Fortitude",
 		selfOnly = false,
 		stacks   = false,
 		multi 	 = "Prayer of Fortitude"
 	},
 	SP = {
-		class 	 = "Priest",
+		class 	 = "PRIEST",
 		name     = "Shadow Protection",
 		selfOnly = false,
 		stacks   = false,
 		multi    = "Prayer of Shadow Protection"
 	},
 	InnerFire = {
-		class 	 = "Priest",
+		class 	 = "PRIEST",
 		name     = "Inner Fire",
 		selfOnly = true,
 		stacks   = 20,
 		multi 	 = nil
 	},
 	Shadowform = {
-		class 	 = "Priest",
+		class 	 = "PRIEST",
 		name     = "Shadowform",
 		selfOnly = true,
 		stacks   = false,
 		multi 	 = nil
 	},
 	TouchWeakness = {
-		class 	 = "Priest",
+		class 	 = "PRIEST",
 		name     = "Touch of Weakness",
 		selfOnly = true,
 		stacks   = 1,
@@ -289,28 +289,28 @@ local EasyBuff_AuraGroups = {
 	-- Rogue
 	-- Shaman
 	LightningShield = {
-		class 	 = "Shaman",
+		class 	 = "SHAMAN",
 		name     = "Lightning Shield",
 		selfOnly = true,
 		stacks   = 3,
 		multi 	 = nil
 	},
 	WaterShield = {
-		class 	 = "Shaman",
+		class 	 = "SHAMAN",
 		name     = "Water Shield",
 		selfOnly = true,
 		stacks   = 3,
 		multi 	 = nil
 	},
 	EarthShield = {
-		class 	 = "Shaman",
+		class 	 = "SHAMAN",
 		name     = "Earth Shield",
 		selfOnly = true,
 		stacks   = 6,
 		multi 	 = nil
 	},
 	WaterBreathing = {
-		class 	 = "Shaman",
+		class 	 = "SHAMAN",
 		name     = "Water Breathing",
 		selfOnly = false,
 		stacks   = false,
@@ -318,28 +318,28 @@ local EasyBuff_AuraGroups = {
 	},
 	-- Warlock
 	DemonArmor = {
-		class 	 = "Warlock",
+		class 	 = "WARLOCK",
 		name	 = "Demon Armor",
 		selfOnly = true,
 		stacks   = false,
 		multi	 = nil
 	},
 	ShadowWard = {
-		class 	 = "Warlock",
+		class 	 = "WARLOCK",
 		name	 = "Shadow Ward",
 		selfOnly = true,
 		stacks   = false,
 		multi	 = nil
 	},
 	DetectInvis = {
-		class	 = "Warlock",
+		class	 = "WARLOCK",
 		name	 = "Detect Invisibility",
 		selfOnly = false,
 		stacks   = false,
 		multi    = nil
 	},
 	UnendingBreath = {
-		class 	 = "Warlock",
+		class 	 = "WARLOCK",
 		name	 = "Unending Breath",
 		selfOnly = false,
 		stacks   = false,
@@ -358,56 +358,56 @@ local EasyBuff_AuraGroups = {
 local EasyBuff_TrackingTypes = {
 	-- Hunter
 	["1494"] = {
-		class 	 = "Hunter",
+		class 	 = "HUNTER",
 		prof     = nil,
 		name     = "Track Beasts",
 		spellId  = 1494,
 		texture  = 132328
 	},
 	["19878"] = {
-		class 	 = "Hunter",
+		class 	 = "HUNTER",
 		prof     = nil,
 		name     = "Track Demons",
 		spellId  = 19878,
 		texture  = 136217
 	},
 	["19879"] = {
-		class 	 = "Hunter",
+		class 	 = "HUNTER",
 		prof     = nil,
 		name     = "Track Dragonkin",
 		spellId  = 19879,
 		texture  = 134153
 	},
 	["19880"] = {
-		class 	 = "Hunter",
+		class 	 = "HUNTER",
 		prof     = nil,
 		name     = "Track Elementals",
 		spellId  = 19880,
 		texture  = 135861
 	},
 	["19882"] = {
-		class 	 = "Hunter",
+		class 	 = "HUNTER",
 		prof     = nil,
 		name     = "Track Giants",
 		spellId  = 19882,
 		texture  = 132275
 	},
 	["19885"] = {
-		class 	 = "Hunter",
+		class 	 = "HUNTER",
 		prof     = nil,
 		name     = "Track Hidden",
 		spellId  = 19885,
 		texture  = 132320
 	},
 	["19883"] = {
-		class 	 = "Hunter",
+		class 	 = "HUNTER",
 		prof     = nil,
 		name     = "Track Humanoids",
 		spellId  = 19883,
 		texture  = 135942
 	},
 	["19884"] = {
-		class 	 = "Hunter",
+		class 	 = "HUNTER",
 		prof     = nil,
 		name     = "Track Undead",
 		spellId  = 19884,

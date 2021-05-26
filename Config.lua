@@ -46,7 +46,7 @@ function EasyBuff:ConfigOptions()
 			header1 = {
 				order = 1,
 				type = "header",
-				name = format(L["%s (v%s) by %sPhoosa|r"], EasyBuff.TITLE, EasyBuff.VERSION, EasyBuff.CLASS_COLORS["Druid"]),
+				name = format(L["%s (v%s) by %sPhoosa|r"], EasyBuff.TITLE, EasyBuff.VERSION, EasyBuff.CLASS_COLORS["DRUID"]),
 			},
 			wanted = {
 				order = 2,
@@ -919,9 +919,9 @@ end
 ]]--
 function EasyBuff:InitializeForFaction(faction)
 	if ("Alliance" == faction) then
-		EasyBuff.CLASSES["Shaman"] = nil;
+		EasyBuff.CLASSES["SHAMAN"] = nil;
 	else
-		EasyBuff.CLASSES["Paladin"] = nil;
+		EasyBuff.CLASSES["PALADIN"] = nil;
 	end
 
 	EasyBuff:UpdateContext();
